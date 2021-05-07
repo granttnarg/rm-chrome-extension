@@ -1,0 +1,21 @@
+{
+    "name": "Popout",
+    "version": "1.0",
+    "description": "Rick and Morty Radio",
+      "browser_action": {
+          "default_title": "Rock and Morty Radio",
+          "default_popup": "popup.html",
+          "default_icon": "images/pickle.png"
+      },
+    "icons": {
+        "16": "images/rick.png",
+        "32": "images/rick.png",
+        "48": "images/rick.png",
+        "128": "images/rick.png"
+    },
+    "background" : {
+        "page": "background.html",
+        "persistent": true
+    },
+    "manifest_version": 2
+  }
